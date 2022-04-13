@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-image: linear-gradient(to bottom, #00a884 17%,#e5e3de 17%,#d1d7db 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    background-color: white;
+    margin: auto;
+    width: 90.5%;
+    position: relative;
+    height: 700px;
+}
+section .partiegauche{
+    width: 30%;
+}
+img:hover{
+    cursor: pointer;
+}
+svg:hover{
+    cursor: pointer;
+}
+.premiercarretopleft{
+ position: relative;
+ background-color: #F0F2F5;
+ height: 60px;
+ justify-content: space-between;
+ display: flex;
+ padding: 10px 16px;
+ border-right: 1px solid #D1D7DB;
+}
+section .boitewhats .premiercarretopleft figure img{
+    border-radius: 50%;
+    top:10px;
+    left: 13.7px;
+}
+section .lestroisicontopleft{
+    margin-top: 8px;
+    padding-right: 10px;
+}
+section .lestroisicontopleft svg{
+    margin-left: 22px;
+}
+.recherchetopleft{
+    padding: 7px 12px;
+    border-right: rgb(236, 231, 231) solid 1px;
+    border-bottom: #D3D3D3 1px solid;
+}
+.recherchetopleft .barrederecherche{
+    background-color: #F0F2F5;
+    display: flex;
+    border-radius: 8px;
+    padding: 5px 6px;
+}
+.recherchetopleft .barrederecherche .labelrecherche form input{
+    background-color:#D1D7DB ;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    width: 330px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 4.5px;
+    margin-left: 20px;
+}
+.barrederecherche svg{
+    margin-left: 6px;
+}
+.discussionpartiegauche{
+    width: 100%;
+    height: 591px;
+    overflow: auto;
+    border-right: rgb(236, 231, 231) 1px solid;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    height: 0;
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #CED0D1;
+    height: 5px;
+}
+
+.discussionscroll{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+.infodiscussion{
+    display: flex;
+}
+.textdiscussion{
+    padding-left: 10px;
+}
+.textdiscussion h2{
+    font-size: 17px;
+    font-weight: 400;
+}
+.textdiscussion p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #667781;
+    margin-top: 6px;
+}
+.dureediscussion{
+    font-size: 12px;
+    color: #667781;
+}
+.bar{
+    border-bottom: 1px lightgray solid;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+.boitewhats{
+display: flex;
+}
+.partiedroite{
+    width: 100%;
+    height: 600px;
+}
+.hautdepagedroite{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #F0F2F5;
+}
+.hautgauche{
+    display: flex;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+.hautgauche img{
+    border-radius: 50%;
+}
+.hautgauche div{
+    margin-left: 15px;
+}
+.hautgauche div h2{
+    font-size: 16px;
+    font-weight: 400;
+    height: 23px
+}
+.hautgauche div p{
+    font-size: 13px;
+    color: #667781;
+}
+.hautdroite{
+    margin-right: 22px;
+    margin-top: 16px;
+}
+.hautdroite svg{
+    margin-left: 10px;
+}
+section .barretextenbas{
+    background-color: #F0F2F5;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    top: 580px;
+    left: 0;
+    display: flex;
+    padding-top:16px;
+    padding-left: 18px;
+}
+.labelrecherchebas form input{
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 14px;
+    font-weight: 400;
+    height: 45px;
+    margin-top: -16px;
+    border-radius: 8px;
+    width: 832px;
+    margin-left: 12px;
+    padding-left: 8px;
+}
+.iconegauche .epingle svg{
+    margin-left:8px;
+}
+.parlericon svg{
+    margin-left: 7px;
+}
+.discussionpartiegauche img{
+    border-radius: 50%;
+}
+.discussionaumilieu{
+    position: relative;
+    width: 100%;
+    height: 580px;
+    overflow: auto;
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./fondwhats.png);
+}
+.receiver{
+    background-color: white;
+    width: 30%;
+    margin-left:80px ;
+}
+.sender{
+    background-color: #D9FDD3;
+    width: 25%;
+    margin-left: 650px;
+}
+.message{
+    margin-top: 3px;
+    padding: 5px 5px 8px 5px;
+    border-radius: 6px;
+    position: relative;
+    height: 200px;
+    font-size: 14px;
+}
+.message span{
+    font-size: 11px;
+    font-weight: 400;
+    color: #66778B;
+    position: absolute;
+    right: 25px;
+    bottom: 5px;
+}
+.message svg{
+    position: absolute;
+    bottom: 4px;
+    right: 5px;
+}
+.receiver .triangle {
+    height: 0;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-top: 10px solid white;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+.sender .triangle{
+    height: 0;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-top: 10px solid #D9FDD3;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+.discussionpartiegauche a{
+    text-decoration: none;
+    color: black;
+}
+.discussionpartiegauche a:hover{
+    background-color: black;
+    color: red;
+}
+.toutsaufduree:hover{
+    background-color: rgba(245, 246, 246);
+    cursor: pointer;
+}
+.message img{
+    padding-bottom: 10px;
+}
+.armincuit{
+    background-color: #D9FDD3;
+    width: 50%;
+    margin-left: 414px;
+    margin-top: 3px;
+    padding: 5px 5px 8px 5px;
+    border-radius: 6px;
+    position: relative;
+    height: 220px;
+    font-size: 14px;
+}
+.mikasablaze{
+    margin-top: 3px;
+    padding: 5px 5px 8px 5px;
+    border-radius: 6px;
+    position: relative;
+    height: 250px;
+    font-size: 14px;
+    background-color: white;
+    width: 50%;
+    margin-left:80px ;
+}
+.fin{
+    margin-bottom: 3px;
+}
